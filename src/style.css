@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #d31f1f;
+}
+
+.logo_nav {
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+.logo {
+    width: 25rem;
+    height: 25rem;
+    margin-bottom: 3rem;
+}
+
+.bienvenida {
+    text-align: center;
+    background: url("https://i.pinimg.com/564x/6a/f8/aa/6af8aa46c740dc7048619ef58622a40d.jpg");
+    padding: 1rem;
+}
+
+.navegacion_elementos {
+    font-size: 2rem;
+    padding-left: 2rem;
+    font-family: "Ubuntu Sans", sans-serif;
+    font-weight: bold;
+}
+
+.titulo {
+    font-family: "Ubuntu Sans", sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 4rem;
+    padding: 0.5rem;
+    margin: 3rem;
+    color: #FC9E4F;
+    border: #020122 solid 1rem;
+    background-color: #EDD382;
+}
+
+.subtitulo {
+    font-family: "Ubuntu Sans", sans-serif;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.articulo {
+    font-family: "Ubuntu Sans", sans-serif;
+    font-size: 0.9rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.seleccion {
+    display: flex;
+    justify-content: center;
+}
+
+.set_lego {
+    width: 350px;
+    height: 250px;
+}
+
+.navegacion_elementos:hover {
+    font-family: "VT323", monospace;
+    font-size: 2.5rem;
+    text-shadow: 0.1rem 0.1rem #000000;
+}
+
+.redes_sociales {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    align-items: center;
+    font-size: 3rem;
+    padding: 0.5rem;
+    background-color: #ec0f0f;
+}
+
+.enlaces {
+    text-decoration: none;
+    color: #ffe600;
+}
+
+.facebook:hover {
+    color: #3f4feb;
+}
+
+.x:hover {
+    color: #000;
+}
+
+.instagram:hover {
+    color: #962fbf;
+}
