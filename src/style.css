@@ -18,9 +18,8 @@
 }
 
 .logo {
-    width: 25rem;
-    height: 25rem;
-    margin-bottom: 3rem;
+    width: 40rem;
+    height: 35rem;
 }
 
 .bienvenida {
@@ -43,7 +42,7 @@
     font-size: 4rem;
     padding: 0.5rem;
     margin: 3rem;
-    color: #FC9E4F;
+    color: #0004ff;
     border: #020122 solid 1rem;
     background-color: #EDD382;
 }
@@ -65,6 +64,7 @@
 .seleccion {
     display: flex;
     justify-content: center;
+    gap: 6rem;
 }
 
 .set_lego {
@@ -87,10 +87,10 @@
 .redes_sociales {
     display: flex;
     justify-content: center;
-    gap: 4rem;
+    gap: 10rem;
     align-items: center;
-    font-size: 3rem;
-    padding: 0.5rem;
+    font-size: 5rem;
+    padding: 2rem;
     background-color: #ec0f0f;
 }
 
@@ -104,6 +104,29 @@
     text-decoration: underline;
 }
 
+.technic {
+    display: flex;
+    justify-content: space-around;
+    background-color: #000000;
+}
+
+.technic_content {
+    font-family: "Ubuntu Sans", sans-serif;
+    justify-content: left;
+    color: #ffffff;
+}
+
+.technic_titulo {
+    font-size: 5rem;
+    padding: 5rem;
+    font-style: italic;
+}
+
+.technic_descripcion {
+    font-size: 2rem;
+    padding-left: 5rem;
+}
+
 .facebook:hover {
     color: #3f4feb;
 }
@@ -114,4 +137,9 @@
 
 .instagram:hover {
     color: #962fbf;
+}
+
+span {
+    text-decoration: underline;
+    font-style: italic;
 }
