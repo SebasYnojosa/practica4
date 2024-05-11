@@ -99,11 +99,9 @@
     color: #ffe600;
 }
 
-.articulo {
-    & .enlaces {
-        color: #000;
-        text-decoration: underline;
-    }
+.articulo .enlaces {
+    color: #000;
+    text-decoration: underline;
 }
 
 .facebook:hover {
